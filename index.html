@@ -14,7 +14,7 @@
         <div class="container">
             <h1>Sign up</h1>
 
-            <form>
+            <form method="POST" action:"/signup/">
                 <label for="email">Email</label>
                 <input class="formbox" id="email" type="email" name="email" placeholder="foo@bar.com" required>
 
@@ -23,6 +23,9 @@
 
                 <button class="signupbtn">Sign up</button>
             </form>
+        </div>
+        <div class="btmbox">
+            <p class="btmmessage">Already have an account? <a href="/login">Log in</a></p>
         </div>
     </main>
 </body>

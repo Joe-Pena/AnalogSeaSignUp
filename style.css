@@ -55,12 +55,34 @@ form label {
 }
 
 .signupbtn {
-    width: 288px;
-    height: 22px;
+    width: 320px;
+    height: 55px;
     padding: 15px;
     background-color: lightgreen;
     border-radius: 5px;
     border: 2px solid lightgreen;
     font-weight: bolder;
+    color: white;
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.signupbtn:hover{
+    background-color: rgb(94, 211, 94);
+}
+
+.btmbox {
+    text-align: center;
+}
+
+.btmmessage{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+div p a {
     color: white;
 }
